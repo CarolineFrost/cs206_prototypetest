@@ -1,0 +1,11 @@
+run pip install --upgrade google-cloud-speech
+or if you have python3 pip3 install --upgrade google-cloud-speech
+
+run pip install --upgrade google-cloud-storage or pip3 install --upgrade google-cloud-storage
+
+export GOOGLE_APPLICATION_CREDENTIALS="/home/user/Downloads/my-key.json"
+by first downloading your credentials here: https://console.cloud.google.com/iam-admin/serviceaccounts, create a project, selecting the vertical ... underneath 'Actions', and hit the download json audio_file
+
+created a bucket in my cloud storage and gave it permissions from my my-stt-sa@cs206-prototype.iam.gserviceaccount.com
+
+run main.py
