@@ -9,3 +9,19 @@ by first downloading your credentials here: https://console.cloud.google.com/iam
 created a bucket in my cloud storage and gave it permissions from my my-stt-sa@cs206-prototype.iam.gserviceaccount.com
 
 run main.py
+
+output should be:
+
+File test.flac uploaded to test.flac.
+gs://test_bucket_cs206/test.flac
+Waiting for operation to complete...
+this was the response
+results {
+  alternatives {
+    transcript: "this is a test"
+    confidence: 0.9876290559768677
+  }
+}
+
+Transcript: this is a test
+Confidence: 0.9876290559768677
