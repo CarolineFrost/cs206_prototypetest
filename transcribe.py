@@ -1,6 +1,6 @@
 def transcribe_gcs(gcs_uri):
     """Asynchronously transcribes the audio file specified by the gcs_uri."""
-    from google.cloud import speech
+    from google.cloud import speech_v1p1beta1 as speech
 
     client = speech.SpeechClient()
 
@@ -10,6 +10,9 @@ def transcribe_gcs(gcs_uri):
         sample_rate_hertz=44100,
         language_code="en-US",
         audio_channel_count=2,
+        enable_automatic_punctuation=True,
+        enable_speaker_diarization=True,
+        diarization_speaker_count=1,
     )
 
     operation = client.long_running_recognize(config=config, audio=audio)
