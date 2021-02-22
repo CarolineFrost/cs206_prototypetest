@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:build">
+   </FileRef>
+   <FileRef
+      location = "group:dataset">
+   </FileRef>
+   <FileRef
+      location = "group:dist">
+   </FileRef>
+   <FileRef
+      location = "group:docs">
+   </FileRef>
+   <FileRef
+      location = "group:examples">
+   </FileRef>
+   <FileRef
+      location = "group:LICENSE">
+   </FileRef>
+   <FileRef
+      location = "group:models">
+   </FileRef>
+   <FileRef
+      location = "group:Readme.md">
+   </FileRef>
+   <FileRef
+      location = "group:requirements.txt">
+   </FileRef>
+   <FileRef
+      location = "group:setup.py">
+   </FileRef>
+   <FileRef
+      location = "group:speechemotionrecognition">
+   </FileRef>
+   <FileRef
+      location = "group:speechemotionrecognition.egg-info">
+   </FileRef>
+</Workspace>
